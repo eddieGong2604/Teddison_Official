@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/teddisonOfficialFinal/static/css/main.2764fb56.chunk.css",
-    "main.js": "/teddisonOfficialFinal/static/js/main.d14217d5.chunk.js",
-    "main.js.map": "/teddisonOfficialFinal/static/js/main.d14217d5.chunk.js.map",
+    "main.js": "/teddisonOfficialFinal/static/js/main.e1827a95.chunk.js",
+    "main.js.map": "/teddisonOfficialFinal/static/js/main.e1827a95.chunk.js.map",
     "runtime-main.js": "/teddisonOfficialFinal/static/js/runtime-main.4219d3f4.js",
     "runtime-main.js.map": "/teddisonOfficialFinal/static/js/runtime-main.4219d3f4.js.map",
     "static/css/2.e59e38f4.chunk.css": "/teddisonOfficialFinal/static/css/2.e59e38f4.chunk.css",
     "static/js/2.6c33f225.chunk.js": "/teddisonOfficialFinal/static/js/2.6c33f225.chunk.js",
     "static/js/2.6c33f225.chunk.js.map": "/teddisonOfficialFinal/static/js/2.6c33f225.chunk.js.map",
     "index.html": "/teddisonOfficialFinal/index.html",
-    "precache-manifest.4dd28b3929922f0b3c456c8187666470.js": "/teddisonOfficialFinal/precache-manifest.4dd28b3929922f0b3c456c8187666470.js",
+    "precache-manifest.347d111c27f1f77113c75a0549bd0951.js": "/teddisonOfficialFinal/precache-manifest.347d111c27f1f77113c75a0549bd0951.js",
     "service-worker.js": "/teddisonOfficialFinal/service-worker.js",
     "static/css/2.e59e38f4.chunk.css.map": "/teddisonOfficialFinal/static/css/2.e59e38f4.chunk.css.map",
     "static/css/main.2764fb56.chunk.css.map": "/teddisonOfficialFinal/static/css/main.2764fb56.chunk.css.map",
@@ -29,6 +29,6 @@
     "static/css/2.e59e38f4.chunk.css",
     "static/js/2.6c33f225.chunk.js",
     "static/css/main.2764fb56.chunk.css",
-    "static/js/main.d14217d5.chunk.js"
+    "static/js/main.e1827a95.chunk.js"
   ]
 }
