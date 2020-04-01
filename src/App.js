@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import SideMasks from "./components/sideMasks";
+import LogoAndTrackList from "./components/logoAndTrackList";
+import Store from "./components/store";
+import "bootstrap/dist/css/bootstrap.css";
+import "font-awesome/css/font-awesome.css";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Merch from "./components/merch";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Store>
+      <BrowserRouter>
+        {" "}
+        <div
+          style={{ backgroundColor: "black" }}
+          className="d-flex justify-content-around text-center"
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <SideMasks />
+          <Switch>
+            <Route path="/" exact component={LogoAndTrackList} />
+            <Route path="/merch" exact component={Merch} />
+          </Switch>
+          <SideMasks />
+        </div>
+      </BrowserRouter>
+    </Store>
   );
 }
 
