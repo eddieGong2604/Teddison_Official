@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3939cae40bde491e1dea54ef151bf18",
+    "revision": "bc6a44c5ea887a015461f51b60444be9",
     "url": "/teddisonOfficialFinal/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teddisonOfficialFinal/static/css/2.e59e38f4.chunk.css"
   },
   {
-    "revision": "d7c01cf5c30d445eaa53",
+    "revision": "c3ec439408ff130e2932",
     "url": "/teddisonOfficialFinal/static/css/main.2764fb56.chunk.css"
   },
   {
@@ -20,16 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teddisonOfficialFinal/static/js/2.6c33f225.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7c01cf5c30d445eaa53",
-    "url": "/teddisonOfficialFinal/static/js/main.9d62dea9.chunk.js"
+    "revision": "c3ec439408ff130e2932",
+    "url": "/teddisonOfficialFinal/static/js/main.de3ca2d6.chunk.js"
   },
   {
     "revision": "b88bc6c53ebecc193116",
     "url": "/teddisonOfficialFinal/static/js/runtime-main.4219d3f4.js"
-  },
-  {
-    "revision": "18f76a8a04e67730b0b16cdaec749c1e",
-    "url": "/teddisonOfficialFinal/static/media/7.18f76a8a.png"
   },
   {
     "revision": "258d71cdaecadb88cd94f3588ac7e168",
@@ -66,6 +62,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "830bec20cb2d81d2af3a2ec171d5e85f",
     "url": "/teddisonOfficialFinal/static/media/fx2.830bec20.wav"
+  },
+  {
+    "revision": "18f76a8a04e67730b0b16cdaec749c1e",
+    "url": "/teddisonOfficialFinal/static/media/logo.18f76a8a.png"
+  },
+  {
+    "revision": "91e5734caaef5033c8e30b538a993bcb",
+    "url": "/teddisonOfficialFinal/static/media/mask.91e5734c.png"
   },
   {
     "revision": "923ea4ea2ba3d042e2e4972565210ac6",
