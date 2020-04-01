@@ -9,7 +9,7 @@ import Merch from "./components/merch";
 function App() {
   return (
     <Store>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         {" "}
         <div
           style={{ backgroundColor: "black" }}
@@ -17,16 +17,8 @@ function App() {
         >
           <SideMasks />
           <Switch>
-            <Route
-              path={process.env.PUBLIC_URL + "/"}
-              exact
-              component={LogoAndTrackList}
-            />
-            <Route
-              path={process.env.PUBLIC_URL + "/merch"}
-              exact
-              component={Merch}
-            />
+            <Route path={"/"} exact component={LogoAndTrackList} />
+            <Route path={"*"} component={Merch} />
           </Switch>
           <SideMasks />
         </div>
