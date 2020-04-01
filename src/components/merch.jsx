@@ -56,7 +56,7 @@ const ProductCard = () => {
 const Merch = () => {
   return (
     <div className="text-center">
-      <a href="/">
+      <a href="/teddisonOfficialFinal">
         <img src={Logo} className="mb-1" />
       </a>
       <h1 style={{ color: "rgb(91, 72, 47)", fontFamily: "augustus" }}>

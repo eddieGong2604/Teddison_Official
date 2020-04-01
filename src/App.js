@@ -22,7 +22,11 @@ function App() {
               exact
               component={LogoAndTrackList}
             />
-            <Route path={"/merch"} exact component={Merch} />
+            <Route
+              path={process.env.PUBLIC_URL + "/merch"}
+              exact
+              component={Merch}
+            />
           </Switch>
           <SideMasks />
         </div>
