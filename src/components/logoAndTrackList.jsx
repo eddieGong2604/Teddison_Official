@@ -23,7 +23,7 @@ const LogoAndTrackList = props => {
       <img src={Logo} className="mb-5" />
       <h5 style={{ color: "#5b482f" }}>
         Sounds .{" "}
-        <a href={"/merch"}>
+        <a href={"//"}>
           <MerchButton>Merch</MerchButton>
         </a>{" "}
         . Projects
