@@ -17,8 +17,16 @@ function App() {
         >
           <SideMasks />
           <Switch>
-            <Route path="/" exact component={LogoAndTrackList} />
-            <Route path="/merch" exact component={Merch} />
+            <Route
+              path={process.env.PUBLIC_URL + "/"}
+              exact
+              component={LogoAndTrackList}
+            />
+            <Route
+              path={process.env.PUBLIC_URL + "/merch"}
+              exact
+              component={Merch}
+            />
           </Switch>
           <SideMasks />
         </div>
