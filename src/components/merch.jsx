@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../img/7.png";
+import Logo from "../img/logo.png";
 import styled from "styled-components";
 import TShirt from "../img/tshirt.png";
 
