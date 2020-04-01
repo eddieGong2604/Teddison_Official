@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/teddisonOfficialFinal/static/css/main.2764fb56.chunk.css",
-    "main.js": "/teddisonOfficialFinal/static/js/main.0254e0ef.chunk.js",
-    "main.js.map": "/teddisonOfficialFinal/static/js/main.0254e0ef.chunk.js.map",
-    "runtime-main.js": "/teddisonOfficialFinal/static/js/runtime-main.d2bd16e3.js",
-    "runtime-main.js.map": "/teddisonOfficialFinal/static/js/runtime-main.d2bd16e3.js.map",
+    "main.js": "/teddisonOfficialFinal/static/js/main.9d62dea9.chunk.js",
+    "main.js.map": "/teddisonOfficialFinal/static/js/main.9d62dea9.chunk.js.map",
+    "runtime-main.js": "/teddisonOfficialFinal/static/js/runtime-main.4219d3f4.js",
+    "runtime-main.js.map": "/teddisonOfficialFinal/static/js/runtime-main.4219d3f4.js.map",
     "static/css/2.e59e38f4.chunk.css": "/teddisonOfficialFinal/static/css/2.e59e38f4.chunk.css",
-    "static/js/2.0b3858ff.chunk.js": "/teddisonOfficialFinal/static/js/2.0b3858ff.chunk.js",
-    "static/js/2.0b3858ff.chunk.js.map": "/teddisonOfficialFinal/static/js/2.0b3858ff.chunk.js.map",
+    "static/js/2.6c33f225.chunk.js": "/teddisonOfficialFinal/static/js/2.6c33f225.chunk.js",
+    "static/js/2.6c33f225.chunk.js.map": "/teddisonOfficialFinal/static/js/2.6c33f225.chunk.js.map",
     "index.html": "/teddisonOfficialFinal/index.html",
-    "precache-manifest.a291051193b3012e63fe9666debbc642.js": "/teddisonOfficialFinal/precache-manifest.a291051193b3012e63fe9666debbc642.js",
+    "precache-manifest.bb98caa97380ac31e33a2c4f74f64917.js": "/teddisonOfficialFinal/precache-manifest.bb98caa97380ac31e33a2c4f74f64917.js",
     "service-worker.js": "/teddisonOfficialFinal/service-worker.js",
     "static/css/2.e59e38f4.chunk.css.map": "/teddisonOfficialFinal/static/css/2.e59e38f4.chunk.css.map",
     "static/css/main.2764fb56.chunk.css.map": "/teddisonOfficialFinal/static/css/main.2764fb56.chunk.css.map",
-    "static/js/2.0b3858ff.chunk.js.LICENSE.txt": "/teddisonOfficialFinal/static/js/2.0b3858ff.chunk.js.LICENSE.txt",
+    "static/js/2.6c33f225.chunk.js.LICENSE.txt": "/teddisonOfficialFinal/static/js/2.6c33f225.chunk.js.LICENSE.txt",
     "static/media/7.png": "/teddisonOfficialFinal/static/media/7.18f76a8a.png",
     "static/media/index.css": "/teddisonOfficialFinal/static/media/AUGUSTUS.258d71cd.TTF",
     "static/media/Technose.wav": "/teddisonOfficialFinal/static/media/Technose.b22ad266.wav",
@@ -25,10 +25,10 @@
     "static/media/tshirt.png": "/teddisonOfficialFinal/static/media/tshirt.3daa34ee.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2bd16e3.js",
+    "static/js/runtime-main.4219d3f4.js",
     "static/css/2.e59e38f4.chunk.css",
-    "static/js/2.0b3858ff.chunk.js",
+    "static/js/2.6c33f225.chunk.js",
     "static/css/main.2764fb56.chunk.css",
-    "static/js/main.0254e0ef.chunk.js"
+    "static/js/main.9d62dea9.chunk.js"
   ]
 }
