@@ -4,12 +4,12 @@ import LogoAndTrackList from "./components/logoAndTrackList";
 import Store from "./components/store";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, HashRouter } from "react-router-dom";
 import Merch from "./components/merch";
 function App() {
   return (
     <Store>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         {" "}
         <div
           style={{ backgroundColor: "black" }}
@@ -18,11 +18,11 @@ function App() {
           <SideMasks />
           <Switch>
             <Route path={"/"} exact component={LogoAndTrackList} />
-            <Route path={"*"} component={Merch} />
+            <Route path={"/merch"} component={Merch} />
           </Switch>
           <SideMasks />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </Store>
   );
 }

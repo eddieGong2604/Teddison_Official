@@ -82,7 +82,7 @@ const Player = ({ player, toggle }) => {
 
   return (
     <div
-      className="d-flex justify-content-between mb-4"
+      className="d-flex justify-content-between mb-4 px-3"
       style={{ backgroundColor: "#3d342f" }}
     >
       <div>
@@ -100,12 +100,14 @@ const Player = ({ player, toggle }) => {
             toggle();
           }}
         >
-          SNARE &nbsp;
-          {player.playing ? (
-            <i className="fa fa-pause" aria-hidden="true"></i>
-          ) : (
-            <i className="fa fa-play" aria-hidden="true"></i>
-          )}
+          <h3>
+            SNARE &nbsp;
+            {player.playing ? (
+              <i className="fa fa-pause" aria-hidden="true"></i>
+            ) : (
+              <i className="fa fa-play" aria-hidden="true"></i>
+            )}
+          </h3>
         </button>
         <DownloadModal track={player} />
       </div>

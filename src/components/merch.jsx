@@ -17,7 +17,7 @@ const MerchButton = styled.button`
 `;
 const ProductCard = () => {
   return (
-    <div style={{ width: "50vw" }} className="row text-center">
+    <div className="row text-center mx-5">
       <div
         style={{ backgroundColor: "#c2a26e" }}
         className="col-lg-4 rounded-left"
@@ -57,7 +57,11 @@ const Merch = () => {
   return (
     <div className="text-center">
       <a href="/teddisonOfficialFinal">
-        <img src={Logo} className="mb-1" />
+        <img
+          src={Logo}
+          className="mb-1"
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
       </a>
       <h1 style={{ color: "rgb(91, 72, 47)", fontFamily: "augustus" }}>
         MERCH

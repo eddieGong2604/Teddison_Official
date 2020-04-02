@@ -18,16 +18,24 @@ const MerchButton = styled.button`
 
 const LogoAndTrackList = props => {
   return (
-    <div className="text-center">
+    <div className="text-center mx-5">
       {" "}
-      <img src={Logo} className="mb-5" />
-      <h5 style={{ color: "#5b482f" }}>
-        Sounds .{" "}
-        <a href={process.env.PUBLIC_URL + "/merch/"}>
-          <MerchButton>Merch</MerchButton>
-        </a>{" "}
-        . Projects
-      </h5>
+      <img src={Logo} style={{ maxWidth: "100%", height: "auto" }} />
+      <div className="row">
+        <div className="col-md-4 text-right">
+          <h2 style={{ color: "#5b482f" }}>Sounds </h2>
+        </div>
+        <div className="col-md-4">
+          <Link to="/merch">
+            <MerchButton>
+              <h2>Merch</h2>
+            </MerchButton>
+          </Link>
+        </div>
+        <div className="col-md-4 text-left">
+          <h2 style={{ color: "#5b482f" }}>Projects</h2>
+        </div>
+      </div>
       <br></br>
       <MultiPlayer urls={[fx1, fx2, Technose, sweep1, sweep2]} />{" "}
     </div>

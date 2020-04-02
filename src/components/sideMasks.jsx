@@ -48,12 +48,28 @@ const SideMasks = () => {
         (currentCount - e) % 2 === 0 && played.musicIsPlayed ? (
           <HeartBeat>
             {" "}
-            <img src={Mask} />
+            <img
+              src={Mask}
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+                minHeight: "50px",
+                minWidth: "50px"
+              }}
+            />
           </HeartBeat>
         ) : (
           <NormalState>
             {" "}
-            <img src={Mask} />
+            <img
+              src={Mask}
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+                minHeight: "50px",
+                minWidth: "50px"
+              }}
+            />
           </NormalState>
         )
       )}

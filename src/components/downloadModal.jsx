@@ -66,7 +66,9 @@ class DownloadModal extends Component {
           }}
         >
           {" "}
-          <i className="fa fa-download" aria-hidden="true"></i>
+          <h3>
+            <i className="fa fa-download" aria-hidden="true"></i>
+          </h3>
         </button>
         <ReactModal
           style={customStyles}

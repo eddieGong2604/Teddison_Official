@@ -17,6 +17,7 @@ code {
 }
 html {
   background-color: #000;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -31,7 +32,7 @@ code {
     monospace;
 }
 .equaliser-container {
-  height: 10px;
+  height: 30px;
   width: 40px;
   margin: 0;
   padding: 0;
@@ -42,7 +43,7 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 10px;
+  height: 30px;
   background: #999797;
 }
 .equaliser-column {
@@ -50,7 +51,7 @@ code {
   float: left;
   margin: 0 1px 0 0;
   padding: 0;
-  height: 20px;
+  height: 30px;
   position: relative;
   list-style-type: none;
 }
@@ -94,98 +95,58 @@ code {
   -webkit-animation: color-bar 2s ease-out 1s infinite alternate;
   animation: color-bar 2s ease-out 1s infinite alternate;
 }
+
+.equaliser-column:nth-child(10) .colour-bar {
+  -webkit-animation: color-bar 2s ease-out 1s infinite alternate;
+  animation: color-bar 2s ease-out 1s infinite alternate;
+}
 .equaliser-column:last-child {
   margin-right: 0;
 }
-@-webkit-keyframes color-bar {
-  0% {
-    height: 3px;
-    background: #999797;
-  }
-  10% {
-    height: 5px;
-    background: #999797;
-  }
-  20% {
-    height: 4px;
-    background: #999797;
-  }
-  30% {
-    height: 3px;
-    background: #999797;
-  }
-  40% {
-    height: 7px;
-    background: #999797;
-  }
-  50% {
-    height: 9px;
-    background: #999797;
-  }
-  60% {
-    height: 3px;
-    background: #999797;
-  }
-  70% {
-    height: 8px;
-    background: #999797;
-  }
-  80% {
-    height: 5px;
-    background: #999797;
-  }
-  90% {
-    height: 3px;
-    background: #999797;
-  }
-  to {
-    height: 5px;
-    background: #999797;
-  }
-}
+
 @keyframes color-bar {
   0% {
-    height: 3px;
+    height: 10px;
     background: #999797;
   }
   10% {
-    height: 5px;
+    height: 17px;
     background: #999797;
   }
   20% {
-    height: 4px;
+    height: 15px;
     background: #999797;
   }
   30% {
-    height: 3px;
+    height: 14px;
     background: #999797;
   }
   40% {
-    height: 7px;
+    height: 10px;
     background: #999797;
   }
   50% {
-    height: 9px;
+    height: 13px;
     background: #999797;
   }
   60% {
-    height: 3px;
+    height: 10px;
     background: #999797;
   }
   70% {
-    height: 8px;
+    height: 18px;
     background: #999797;
   }
   80% {
-    height: 5px;
+    height: 20px;
     background: #999797;
   }
   90% {
-    height: 3px;
+    height: 14px;
     background: #999797;
   }
   to {
-    height: 5px;
+    height: 6px;
     background: #999797;
   }
 }
