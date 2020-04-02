@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/teddisonOfficialFinal/static/css/main.2764fb56.chunk.css",
-    "main.js": "/teddisonOfficialFinal/static/js/main.c133dac3.chunk.js",
-    "main.js.map": "/teddisonOfficialFinal/static/js/main.c133dac3.chunk.js.map",
+    "main.css": "/teddisonOfficialFinal/static/css/main.7d0a2938.chunk.css",
+    "main.js": "/teddisonOfficialFinal/static/js/main.71952d1f.chunk.js",
+    "main.js.map": "/teddisonOfficialFinal/static/js/main.71952d1f.chunk.js.map",
     "runtime-main.js": "/teddisonOfficialFinal/static/js/runtime-main.4219d3f4.js",
     "runtime-main.js.map": "/teddisonOfficialFinal/static/js/runtime-main.4219d3f4.js.map",
     "static/css/2.0a5b546f.chunk.css": "/teddisonOfficialFinal/static/css/2.0a5b546f.chunk.css",
     "static/js/2.03030ac5.chunk.js": "/teddisonOfficialFinal/static/js/2.03030ac5.chunk.js",
     "static/js/2.03030ac5.chunk.js.map": "/teddisonOfficialFinal/static/js/2.03030ac5.chunk.js.map",
     "index.html": "/teddisonOfficialFinal/index.html",
-    "precache-manifest.b15d60a25692ab47587c06e226cf71db.js": "/teddisonOfficialFinal/precache-manifest.b15d60a25692ab47587c06e226cf71db.js",
+    "precache-manifest.12a2060dc8796fd77d10ecc8a43372f9.js": "/teddisonOfficialFinal/precache-manifest.12a2060dc8796fd77d10ecc8a43372f9.js",
     "service-worker.js": "/teddisonOfficialFinal/service-worker.js",
     "static/css/2.0a5b546f.chunk.css.map": "/teddisonOfficialFinal/static/css/2.0a5b546f.chunk.css.map",
-    "static/css/main.2764fb56.chunk.css.map": "/teddisonOfficialFinal/static/css/main.2764fb56.chunk.css.map",
+    "static/css/main.7d0a2938.chunk.css.map": "/teddisonOfficialFinal/static/css/main.7d0a2938.chunk.css.map",
     "static/js/2.03030ac5.chunk.js.LICENSE.txt": "/teddisonOfficialFinal/static/js/2.03030ac5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/teddisonOfficialFinal/static/media/AUGUSTUS.258d71cd.TTF",
     "static/media/Technose.wav": "/teddisonOfficialFinal/static/media/Technose.b22ad266.wav",
     "static/media/font-awesome.css": "/teddisonOfficialFinal/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/fx1.wav": "/teddisonOfficialFinal/static/media/fx1.a9dd873b.wav",
     "static/media/fx2.wav": "/teddisonOfficialFinal/static/media/fx2.830bec20.wav",
-    "static/media/logo.png": "/teddisonOfficialFinal/static/media/logo.18f76a8a.png",
+    "static/media/logo.png": "/teddisonOfficialFinal/static/media/logo.232353b0.png",
     "static/media/sweep1.wav": "/teddisonOfficialFinal/static/media/sweep1.923ea4ea.wav",
     "static/media/sweep2.wav": "/teddisonOfficialFinal/static/media/sweep2.8f09d156.wav",
     "static/media/tshirt.png": "/teddisonOfficialFinal/static/media/tshirt.3daa34ee.png"
@@ -28,7 +28,7 @@
     "static/js/runtime-main.4219d3f4.js",
     "static/css/2.0a5b546f.chunk.css",
     "static/js/2.03030ac5.chunk.js",
-    "static/css/main.2764fb56.chunk.css",
-    "static/js/main.c133dac3.chunk.js"
+    "static/css/main.7d0a2938.chunk.css",
+    "static/js/main.71952d1f.chunk.js"
   ]
 }
