@@ -22,7 +22,7 @@ const LogoAndTrackList = props => {
       {" "}
       <img src={Logo} style={{ maxWidth: "100%", height: "auto" }} />
       <div className="row">
-        <div className="col-md-4 text-right">
+        <div className="col-md-4">
           <h2 style={{ color: "#5b482f" }}>Sounds </h2>
         </div>
         <div className="col-md-4">
@@ -32,7 +32,7 @@ const LogoAndTrackList = props => {
             </MerchButton>
           </Link>
         </div>
-        <div className="col-md-4 text-left">
+        <div className="col-md-4 ">
           <h2 style={{ color: "#5b482f" }}>Projects</h2>
         </div>
       </div>
